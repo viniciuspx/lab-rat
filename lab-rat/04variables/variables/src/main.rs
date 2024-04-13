@@ -1,7 +1,7 @@
 // this simple example is to show the use of mutable variables
 fn main() {
     // without the keyword mut the variable cant get assigned again
-    // implcit typing in this case i32
+    // implicit typing in this case i32
     let mut x = 5;
     println!("The value of x is: {x}");
     x = 6;
@@ -13,7 +13,7 @@ fn main() {
     // more shadowing
     let y = 5;
     let y = y + 1;
-    // different from assigning we are using let again to re-define the varible y
+    // different from assigning we are using let again to re-define the variable y
     // in this way we "shadow" the previous value
     {
         // this variable only exists in this scope, once we are out >>puff
